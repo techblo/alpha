@@ -318,7 +318,7 @@ const questions = {
     ],
   },
   check_out1: {
-    botPrompt: 'Check out how to build your own, fully customizable, web-based bot in here',
+    botPrompt: 'I am custamizable in any way',
     answers: [
       {
         nextId: 'check_out2',
@@ -326,7 +326,7 @@ const questions = {
     ],
   },
   check_out2: {
-    botPrompt: 'https://github.com/IcaliaLabs/alpha',
+    botPrompt: 'I am Alpha by Ansuman',
     type: RTypes.LINK,
     input: endOfConversation(),
     answers: [
