@@ -326,7 +326,7 @@ const questions = {
     ],
   },
   check_out2: {
-    botPrompt: 'I am Alpha by Ansuman',
+    botPrompt: 'https://www.techblo.info/p/blog-page.html',
     type: RTypes.LINK,
     input: endOfConversation(),
     answers: [
