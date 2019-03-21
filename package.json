@@ -241,6 +241,7 @@
     "sanitize.css": "4.1.0",
     "styled-components": "^2.1.0",
     "warning": "3.0.0",
+    "rimraf": "2.5.4",
     "whatwg-fetch": "2.0.1"
   },
   "devDependencies": {
