@@ -21,7 +21,7 @@ const questions = {
     ],
   },
   myPurpose: {
-    botPrompt: 'My purpose is to be a simple chatbot that <strong>guides users</strong> and <strong>is able to make decisions and make recommendations.</strong>',
+    botPrompt: 'My purpose is to be a simple chatbot that <strong>guides users </strong> and <strong>is able to make decisions and make recommendations.</strong>',
     answers: [
       {
         nextId: 'yourName',
