@@ -112,7 +112,7 @@ const questions = {
     ],
   },
   bagsSystem: {
-    botPrompt: "Besides all that, I can add up points in my <strong>Bags System</strong>, to eventually make a 'Recommendation'",
+    botPrompt: "Besides all that, I can track live information and monitor data <strong>for you</strong>, to eventually make your 'life easy'",
     answers: [
 			{ nextId: 'letsTryIt' },
     ],
