@@ -6,7 +6,7 @@ import {
   disabledFieldText,
   endOfConversation,
 } from '../StateFormatter';
-import test from '../BotMailer.js'; 
+import axios from 'axios';
 import * as RTypes from '../responseTypes';
 
 const common_greetings = /(^hello|^hllo|^hi|^hey|^hola|^sup)\b\s?.*$/i;
@@ -14,7 +14,7 @@ const common_greetings_negative = /(?!(^hello|^hi|^hey|^hllo|^sup|^hola)\b)\w+/i
 
 const questions = {
   start: {
-    botPrompt: test()+'Hello Human, my name is <strong>Arrow</strong>, I am an awesome <strong>chatbot</strong> by https://www.techblo.info</a>' ,
+    botPrompt: axios.get(`http://dummy.restapiexample.com/api/v1/employee/1`)+'Hello Human, my name is <strong>Arrow</strong>, I am an awesome <strong>chatbot</strong> by https://www.techblo.info</a>' ,
     answers: [
       {
         nextId: 'myPurpose',
