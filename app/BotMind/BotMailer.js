@@ -25,6 +25,9 @@ export function mailRecommendation(userName, email, recommendation) {
       },
     });
   }
+export function test() {
+  return axios.get(`http://dummy.restapiexample.com/api/v1/employee/1`);
+  }
 
   export function sendMailToOwner(userName, email, phone, digestedConversation) {
     return axios.post(`/bot/mail`,
